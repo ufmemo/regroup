@@ -1,0 +1,2 @@
+ServiceDetails.EntitlementId,Customer.Id,Customer.Country,Admin.DisplayName,Admin.LastName,Admin.Principal,ServiceDetails.ServiceName,Customer.OrgId,Admin.FirstName,ServiceDetails.TrialSurveyDetails.JobTitle,ServiceDetails.TrialSurveyDetails.UseCase,ServiceDetails.TrialSurveyDetails.TeamSize,ServiceDetails.TrialSurveyDetails.UserCount,ServiceDetails.TrialSurveyDetails.Timeframe
+b2dc023d-b614-4270-8e8f-c4b4e2689ddc,kew391173,USA,ke wang,wang,qdqotlak@sharklasers.com,xaxd-devcp1,51567196,ke,,,,,	

@@ -4,15 +4,19 @@
 	"description": "test",
 	"dependencies": {
 		"array-flatten": "^2.1.1",
-		"deep-equal": "^1.0.1",
 		"babel-cli": "^6.26.0",
 		"babel-preset-env": "^1.6.1",
 		"babel-preset-react-native": "^4.0.0",
 		"chai": "^4.1.2",
+		"csv-parse": "^2.4.0",
+		"deep-equal": "^1.0.1",
 		"mocha": "^5.2.0"
 	},
 	"scripts": {
-		"test": "mocha --require babel-polyfill --require babel-register TestRegroup.js"
+		"test1": "mocha --require babel-polyfill --require babel-register tests/TestRegroup1.js",
+		"test2": "mocha --require babel-polyfill --require babel-register tests/TestRegroup2.js",
+		"test3": "mocha --require babel-polyfill --require babel-register tests/TestRegroup3.js",
+		"utils": "mocha --require babel-polyfill --require babel-register tests/TestTestUtils.js",
+		"all": "mocha --require babel-polyfill --require babel-register tests/*.js"
 	}
-	
 }
